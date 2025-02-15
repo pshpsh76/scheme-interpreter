@@ -47,7 +47,7 @@ Welcome to the Scheme Interpreter project! This is a lightweight and efficient i
 (define (square n) (* n n))
 (square 4) ; Returns 16
 
-(if (> x y) "x is greater" "y is greater")
+(if (> x y) 0 1)
 
 (define (factorial n) (if (= n 0) 1 (* n (factorial (- n 1)))))
 (factorial 5) ; Returns 120
